@@ -1,4 +1,4 @@
-package Daryn_GO
+package Test
 
 func main ()  {
 
