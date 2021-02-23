@@ -1,4 +1,4 @@
-package HW_L_3
+package main
 
 //1) висакосный год
 
