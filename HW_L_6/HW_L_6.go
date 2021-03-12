@@ -95,3 +95,31 @@ package main
 //	fmt.Println("Итого = ", sum)
 //}
 
+//задачи - https://acmp.ru
+
+//func main(){
+//	a:=[]int{1,2,3,45}
+//	a=append(a,3)
+//	fmt.Println(a)
+//	fmt.Println(len(a))
+//}
+
+//func main(){
+//	a:=[]int{1,2,3,45}
+//	b:=[]int{}
+//	c:=[]int{}
+//	//a=append(a,3)
+//	//fmt.Println(a)
+//	//fmt.Println(len(a))
+//	for i:=0;i<len(a);i++{
+//		if a[i]%2==0
+//			b=append(b,a[i])
+//	}
+}
+
+//func main() {
+//	sl := []string{"daryn", "anel", "kairat", "12345", "123121"}
+//	a := sl[0:3]
+//	//b:=sl[4:5]
+//	fmt.Println(a)
+//}

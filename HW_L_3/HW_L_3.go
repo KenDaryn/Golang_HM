@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 //1) висакосный год
 
 //func main() {
@@ -235,3 +237,90 @@ package main
 //		fmt.Println(i)
 //	}
 //}
+
+//func main() {
+//	sl := []int{100,12,4,21,2,3,4,5,1}
+//	a := sl[0:3]
+//	b:=sl[3:6]
+//	c:=sl[6:9]
+//	fmt.Println(a)
+//	fmt.Println(b)
+//	fmt.Println(c)
+//}
+
+//func main(){
+//	var n int
+//	fmt.Scanf("%d", &n)
+//	arr := []int{}
+//	for i := 0; i < n; i++ {
+//		var a int
+//		fmt.Scanf("%d", &a)
+//		arr=append(arr,a)
+//}
+//	var b int
+//	fmt.Println("Введите число: ")
+//	fmt.Scanf("%d",&b)
+//	a:=0
+//	b:=0
+//	for i := 0; i < n; i++ {
+//		if b==arr[i]{
+//			a+=1
+//
+//		} else{
+//			b+=1
+//
+//		}
+//	} if a>=1{
+//		fmt.Println("есть такое число")
+//	} else {
+//		fmt.
+//	}
+//}
+
+//func main(){
+//	arr:=[]int{1,11,2,1,34,2,2}
+//	numbers:=[]int{}
+//	repeats:=[]int{}
+//	for i:=0;i<len(arr);i++{
+//		temp:=arr[i]
+//		counter:=0
+//		for h:=1;h<len(arr);h++{
+//			if temp==arr[h]{
+//				counter+=1
+//
+//			}
+//		}
+//		numbers
+//}
+//}
+
+
+//func main() {
+//	arr := []int{1, 11, 2, 1, 3, 4, 2, 2}
+//	counter1 := 0
+//	counter2 := 0
+//	counter3 := 0
+//	counter4 := 0
+//	counter5 := 0
+//	for i := 0; i < len(arr); i++ {
+//		if arr[0] == arr[i] {
+//			counter1 += 1
+//			fmt.Println(arr[0], "-", counter1)
+//		} else if arr[1] == arr[i+1] {
+//			counter2 += 1
+//			fmt.Println(arr[1], "-", counter2)
+//		} else if arr[2] == arr[i+2] {
+//			counter3 += 1
+//			fmt.Println(arr[2], "-", counter3)
+//		} else if arr[4] == arr[i+3] {
+//			counter4 += 1
+//			fmt.Println(arr[4], "-", counter4)
+//		} else if arr[5] == arr[i+4] {
+//			counter5 += 1
+//			fmt.Println(arr[5], "-", counter5)
+//		}
+//	}
+//}
+
+
+
