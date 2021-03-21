@@ -1,4 +1,7 @@
 package main
+
+import "fmt"
+
 //https://acmp.ru/index.asp?main=task&id_task=264
 //готов
 //func main() {
@@ -196,3 +199,28 @@ package main
 //	fmt.Println("Строка максимального массива = ", ii)
 //}
 
+func FullBoks(s Book) {
+	fmt.Println(s.Name, s.Price)
+}
+
+type Book struct {
+	Name  string
+	Price int
+}
+
+func main() {
+	b1 := Book{
+		Name: "Книга №1",
+		Price:  1200,
+
+	}
+	b2 := Book{
+		Name:  "Книга №2",
+		Price: 9000,
+	}
+	students := []Book{b1, b2}
+	for _, v := range students {
+		FullBoks(v)
+	}
+
+}
