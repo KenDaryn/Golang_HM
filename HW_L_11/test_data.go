@@ -13,7 +13,7 @@ func main() {
 	cl1 = models.Clients{
 		Id:       001,
 		FullName: "Kenzhebekov Daryn",
-		Balance:  999991,
+		Balance:  11111111111111111111111111111111,
 	}
 	cl2 = models.Clients{
 		Id:       002,
